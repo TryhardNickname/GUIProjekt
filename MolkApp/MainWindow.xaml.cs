@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,9 +21,25 @@ namespace MolkApp
     /// </summary>
     public partial class MainWindow : Window
     {
+        string textboxinput;
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Process.Start("cmd.exe");
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            
+            textboxinput = Input.Text;
+            Process cmd = Process.Start("cmd.exe", "/C " + textboxinput);
+            Debug.WriteLine(textboxinput);
+            cmd.Close();
         }
     }
 }

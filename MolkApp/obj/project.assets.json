@@ -8,24 +8,19 @@
     "net5.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Yumey\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Yumey\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yumey\\source\\repos\\C#\\MolkApp\\MolkApp\\MolkApp.csproj",
+      "projectUniqueName": "C:\\Users\\Yumey\\source\\repos\\GUIProjekt\\MolkApp\\MolkApp.csproj",
       "projectName": "MolkApp",
-      "projectPath": "C:\\Users\\Yumey\\source\\repos\\C#\\MolkApp\\MolkApp\\MolkApp.csproj",
+      "projectPath": "C:\\Users\\Yumey\\source\\repos\\GUIProjekt\\MolkApp\\MolkApp.csproj",
       "packagesPath": "C:\\Users\\Yumey\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yumey\\source\\repos\\C#\\MolkApp\\MolkApp\\obj\\",
+      "outputPath": "C:\\Users\\Yumey\\source\\repos\\GUIProjekt\\MolkApp\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\Yumey\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
