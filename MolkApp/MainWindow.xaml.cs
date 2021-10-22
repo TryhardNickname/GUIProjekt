@@ -21,25 +21,47 @@ namespace MolkApp
     /// </summary>
     public partial class MainWindow : Window
     {
-        string textboxinput;
+        string[] files;
 
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void TextBlock_Drop(object sender, DragEventArgs e)
         {
-            Process.Start("cmd.exe");
+            Debug.WriteLine("molk");
+            files = (string[])e.Data.GetData(DataFormats.FileDrop);
+
+            foreach (string element in files)
+            {
+                Debug.WriteLine(element);
+            }
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void TextBlock_Drop_1(object sender, DragEventArgs e)
         {
-            
-            textboxinput = Input.Text;
-            Process cmd = Process.Start("cmd.exe", "/C " + textboxinput);
-            Debug.WriteLine(textboxinput);
-            cmd.Close();
+            Debug.WriteLine("unmolk");
+            files = (string[])e.Data.GetData(DataFormats.FileDrop);
+
+            foreach (string element in files)
+            {
+                Debug.WriteLine(element);
+            }
         }
+
+        //private void Button_Click(object sender, RoutedEventArgs e)
+        //{
+        //    Process.Start("cmd.exe");
+        //}
+
+        //private void Button_Click_1(object sender, RoutedEventArgs e)
+        //{
+
+        //    textboxinput = Input.Text;
+        //    Process cmd = Process.Start("cmd.exe", "/C " + textboxinput);
+        //    Debug.WriteLine(textboxinput);
+        //    cmd.Close();
+        //}
     }
 }

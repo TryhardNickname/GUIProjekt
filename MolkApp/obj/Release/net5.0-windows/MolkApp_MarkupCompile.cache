@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\Yumey\source\repos\C#\MolkApp\MolkApp\obj\Debug\net5.0-windows\
+C:\Users\Yumey\source\repos\C#\MolkApp\MolkApp\obj\Release\net5.0-windows\
 MolkApp
 none
 false
-TRACE;DEBUG;NET;NET5_0;NETCOREAPP
+TRACE;RELEASE;NET;NET5_0;NETCOREAPP
 C:\Users\Yumey\source\repos\C#\MolkApp\MolkApp\App.xaml
 11407045341
 
