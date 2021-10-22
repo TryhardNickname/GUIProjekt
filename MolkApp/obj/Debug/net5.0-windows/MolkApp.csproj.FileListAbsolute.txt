@@ -42,3 +42,7 @@ C:\Users\Yumey\source\repos\C#\MolkApp\MolkApp\obj\Debug\net5.0-windows\MolkApp.
 C:\Users\Yumey\source\repos\C#\MolkApp\MolkApp\obj\Debug\net5.0-windows\ref\MolkApp.dll
 C:\Users\Yumey\source\repos\C#\MolkApp\MolkApp\obj\Debug\net5.0-windows\MolkApp.pdb
 C:\Users\Yumey\source\repos\C#\MolkApp\MolkApp\obj\Debug\net5.0-windows\MolkApp.genruntimeconfig.cache
+C:\Users\Yumey\source\repos\C#\MolkApp\MolkApp\obj\Debug\net5.0-windows\molk.g.cs
+C:\Users\Yumey\source\repos\C#\MolkApp\MolkApp\obj\Debug\net5.0-windows\molk.baml
+C:\Users\Yumey\source\repos\C#\MolkApp\MolkApp\obj\Debug\net5.0-windows\Unmolk.g.cs
+C:\Users\Yumey\source\repos\C#\MolkApp\MolkApp\obj\Debug\net5.0-windows\Unmolk.baml

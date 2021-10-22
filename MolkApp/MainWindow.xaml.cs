@@ -21,7 +21,7 @@ namespace MolkApp
     /// </summary>
     public partial class MainWindow : Window
     {
-        string[] files;
+        public string[] files;
 
         public MainWindow()
         {
@@ -37,6 +37,9 @@ namespace MolkApp
             {
                 Debug.WriteLine(element);
             }
+            Molk molk = new Molk(files);
+            molk.Show();
+            Close();
         }
 
         private void TextBlock_Drop_1(object sender, DragEventArgs e)
@@ -48,6 +51,9 @@ namespace MolkApp
             {
                 Debug.WriteLine(element);
             }
+            Unmolk unMolk = new Unmolk();
+            unMolk.Show();
+            Close();
         }
 
         //private void Button_Click(object sender, RoutedEventArgs e)
