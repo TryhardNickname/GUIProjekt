@@ -31,12 +31,9 @@ namespace MolkApp
         private void TextBlock_Drop(object sender, DragEventArgs e)
         {
             Debug.WriteLine("molk");
+
             files = (string[])e.Data.GetData(DataFormats.FileDrop);
 
-            foreach (string element in files)
-            {
-                Debug.WriteLine(element);
-            }
             Molk molk = new Molk(files);
             molk.Show();
             Close();
@@ -45,12 +42,9 @@ namespace MolkApp
         private void TextBlock_Drop_1(object sender, DragEventArgs e)
         {
             Debug.WriteLine("unmolk");
+
             files = (string[])e.Data.GetData(DataFormats.FileDrop);
 
-            foreach (string element in files)
-            {
-                Debug.WriteLine(element);
-            }
             Unmolk unMolk = new Unmolk();
             unMolk.Show();
             Close();

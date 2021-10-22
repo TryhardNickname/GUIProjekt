@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,15 +23,25 @@ namespace MolkApp
     {
         private string[] pathToFile;
 
-        public Molk(string[] files)
+        public Molk(string[] file)
         {
-            pathToFile = files;
+            pathToFile = file;
             InitializeComponent();
 
             foreach (string element in pathToFile)
             {
-                Debug.WriteLine(element);
+                checkIfDirOrFile(element);
             }
+        }
+
+        private void checkIfDirOrFile(string path)
+        {
+            FileAttributes attr = File.GetAttributes(path);
+
+            if (attr.HasFlag(FileAttributes.Directory))
+                MessageBox.Show("Its a directory");
+            else
+                MessageBox.Show("Its a file");
         }
     }
 }
