@@ -42,94 +42,94 @@ namespace MolkApp
             CheckBox checkBox = (CheckBox)sender;
             switch (checkBox.Name)
             {
-                case "-f":
+                case "_f":
                     arguments.Add("-f", true);
                     break;
-                case "-d":
+                case "_d":
                     arguments.Add("-d", true);
                     break;
-                case "-r":
+                case "_r":
                     arguments.Add("-r", true);
                     break;
-                case "-0":
+                case "_0":
                     arguments.Add("-0", true);
                     break;
-                case "-1":
+                case "_1":
                     arguments.Add("-1", true);
                     break;
-                case "-q":
+                case "_q":
                     arguments.Add("-q", true);
                     break;
-                case "-c":
+                case "_c":
                     arguments.Add("-c", true);
                     break;
-                case "-@":
+                case "_at":
                     arguments.Add("-@", true);
                     break;
-                case "-x":
+                case "_x":
                     arguments.Add("-x", true);
                     break;
-                case "-F":
+                case "_F":
                     arguments.Add("-F", true);
                     break;
-                case "-A":
+                case "_A":
                     arguments.Add("-A", true);
                     break;
-                case "-T":
+                case "_T":
                     arguments.Add("-T", true);
                     break;
-                case "-!":
+                case "_exc":
                     arguments.Add("-!", true);
                     break;
-                case "-R":
+                case "_R":
                     arguments.Add("-R", true);
                     break;
-                case "-$":
+                case "_dollar":
                     arguments.Add("-$", true);
                     break;
-                case "-e":
+                case "_e":
                     arguments.Add("-e", true);
                     break;
-                case "-u":
+                case "_u":
                     arguments.Add("-u", true);
                     break;
-                case "-m":
+                case "_m":
                     arguments.Add("-m", true);
                     break;
-                case "-j":
+                case "_j":
                     arguments.Add("-j", true);
                     break;
-                case "-l":
+                case "_l":
                     arguments.Add("-l", true);
                     break;
-                case "-9":
+                case "_9":
                     arguments.Add("-9", true);
                     break;
-                case "-v":
+                case "_v":
                     arguments.Add("-v", true);
                     break;
-                case "-z":
+                case "_z":
                     arguments.Add("-z", true);
                     break;
-                case "-o":
+                case "_o":
                     arguments.Add("-o", true);
                     break;
-                case "-i":
+                case "_i":
                     arguments.Add("-i", true);
                     break;
-                case "-D":
+                case "_D":
                     arguments.Add("-D", true);
                     break;
-                case "-J":
+                case "_J":
                     arguments.Add("-J", true);
                     break;
-                case "-X":
+                case "_X":
                     arguments.Add("-X", true);
                     break;
-                case "-S":
+                case "_S":
                     arguments.Add("-S", true);
                     break;
-                case "-n":
+                case "_n":
                     arguments.Add("-n", true);
                     break;
             }
@@ -140,94 +140,94 @@ namespace MolkApp
             CheckBox checkBox = (CheckBox)sender;
             switch (checkBox.Name)
             {
-                case "-f":
+                case "_f":
                     arguments.Remove("-f");
                     break;
-                case "-d":
+                case "_d":
                     arguments.Remove("-d");
                     break;
-                case "-r":
+                case "_r":
                     arguments.Remove("-r");
                     break;
-                case "-0":
+                case "_0":
                     arguments.Remove("-0");
                     break;
-                case "-1":
+                case "_1":
                     arguments.Remove("-1");
                     break;
-                case "-q":
+                case "_q":
                     arguments.Remove("-q");
                     break;
-                case "-c":
+                case "_c":
                     arguments.Remove("-c");
                     break;
-                case "-@":
+                case "_at":
                     arguments.Remove("-@");
                     break;
-                case "-x":
+                case "_x":
                     arguments.Remove("-x");
                     break;
-                case "-F":
+                case "_F":
                     arguments.Remove("-F");
                     break;
-                case "-A":
+                case "_A":
                     arguments.Remove("-A");
                     break;
-                case "-T":
+                case "_T":
                     arguments.Remove("-T");
                     break;
-                case "-!":
+                case "_exc":
                     arguments.Remove("-!");
                     break;
-                case "-R":
+                case "_R":
                     arguments.Remove("-R");
                     break;
-                case "-$":
+                case "_dollar":
                     arguments.Remove("-$");
                     break;
-                case "-e":
+                case "_e":
                     arguments.Remove("-e");
                     break;
-                case "-u":
+                case "_u":
                     arguments.Remove("-u");
                     break;
-                case "-m":
+                case "_m":
                     arguments.Remove("-m");
                     break;
-                case "-j":
+                case "_j":
                     arguments.Remove("-j");
                     break;
-                case "-l":
+                case "_l":
                     arguments.Remove("-l");
                     break;
-                case "-9":
+                case "_9":
                     arguments.Remove("-9");
                     break;
-                case "-v":
+                case "_v":
                     arguments.Remove("-v");
                     break;
-                case "-z":
+                case "_z":
                     arguments.Remove("-z");
                     break;
-                case "-o":
+                case "_o":
                     arguments.Remove("-o");
                     break;
-                case "-i":
+                case "_i":
                     arguments.Remove("-i");
                     break;
-                case "-D":
+                case "_D":
                     arguments.Remove("-D");
                     break;
-                case "-J":
+                case "_J":
                     arguments.Remove("-J");
                     break;
-                case "-X":
+                case "_X":
                     arguments.Remove("-X");
                     break;
-                case "-S":
+                case "_S":
                     arguments.Remove("-S");
                     break;
-                case "-n":
+                case "_n":
                     arguments.Remove("-n");
                     break;
             }
