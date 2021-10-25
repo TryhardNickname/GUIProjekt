@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -30,6 +31,7 @@ namespace MolkApp
             arguments = new Dictionary<string, bool>();
 
             InitializeComponent();
+            DestinationTextBox.Text = file[0];
 
             //foreach (string element in pathToFile)
             //{
@@ -243,5 +245,11 @@ namespace MolkApp
                 MessageBox.Show("Its a file");
         }
 
+        private void Destination_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            if (openFileDialog.ShowDialog() == true)
+                DestinationTextBox.Text = openFileDialog.FileName;
+        }
     }
 }

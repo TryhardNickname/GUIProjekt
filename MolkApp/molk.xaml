@@ -7,7 +7,22 @@
         mc:Ignorable="d"
         Title="Molk" Height="450" Width="800">
     <Grid>
-        <StackPanel Orientation="Vertical">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <TextBox Name="DestinationTextBox" Grid.Column="0" Height="24" VerticalAlignment="Top" IsReadOnly="True"></TextBox>
+            <Button Grid.Column="1" VerticalAlignment="Top" Click="Destination_Click">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="C:\Users\Yumey\Downloads\folder.png" Height="20" />
+                    <TextBlock>Choose destination</TextBlock>
+                </StackPanel>
+            </Button>
+        </Grid>
+
+        <StackPanel Orientation="Vertical" Margin="0,25,0,0">
             <StackPanel.Resources>
                 <Style TargetType="{x:Type CheckBox}">
                     <Setter Property="Margin" Value="0,5,0,0"/>
@@ -59,6 +74,5 @@
                 </TabItem>
             </TabControl>
         </StackPanel>
-        
     </Grid>
 </Window>
