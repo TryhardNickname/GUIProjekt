@@ -7,6 +7,58 @@
         mc:Ignorable="d"
         Title="Molk" Height="450" Width="800">
     <Grid>
+        <StackPanel Orientation="Vertical">
+            <StackPanel.Resources>
+                <Style TargetType="{x:Type CheckBox}">
+                    <Setter Property="Margin" Value="0,5,0,0"/>
+                </Style>
+            </StackPanel.Resources>
+            <TabControl>
+                <TabItem Header="Simple">
+                    <Label>hlelo</Label>
+                </TabItem>
+                <TabItem Header="Advanced">
+                    <StackPanel Orientation="Horizontal">
+                        <StackPanel Orientation="Vertical">
+                            <CheckBox Name="-f" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-f freshen: only changed files</CheckBox>
+                            <CheckBox Name="-d" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-d delete entries in zipfile</CheckBox>
+                            <CheckBox Name="-r" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-r recurse into directories</CheckBox>
+                            <CheckBox Name="-0" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-0 store only</CheckBox>
+                            <CheckBox Name="-1" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-1 compress faster</CheckBox>
+                            <CheckBox Name="-q" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-q quiet operation</CheckBox>
+                            <CheckBox Name="-c" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-c add one-line commentse</CheckBox>
+                            <CheckBox Name="-@" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-@ read names from stdin</CheckBox>
+                            <CheckBox Name="-x" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-x exclude the following names</CheckBox>
+                            <CheckBox Name="-F" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-F fix zipfile (-FF try harder)</CheckBox>
+                        </StackPanel>
+                        <StackPanel Orientation="Vertical">
+                            <CheckBox Name="-A" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-A adjust self-extracting exe</CheckBox>
+                            <CheckBox Name="-T" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-T test zipfile integrity</CheckBox>
+                            <CheckBox Name="-!" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-! use privileges (if granted) to obtain all aspects of WinNT security</CheckBox>
+                            <CheckBox Name="-R" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-R PKZIP recursion</CheckBox>
+                            <CheckBox Name="-$" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-$ include volume label</CheckBox>
+                            <CheckBox Name="-e" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-e encrypt</CheckBox>
+                            <CheckBox Name="-u" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-u update: only changed or new files</CheckBox>
+                            <CheckBox Name="-m" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-m move into zipfile (delete files)</CheckBox>
+                            <CheckBox Name="-j" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-j junk (don't record) directory names</CheckBox>
+                            <CheckBox Name="-l" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-l convert LF to CR LF (-ll CR LF to LF)</CheckBox>
+                        </StackPanel>
+                        <StackPanel Orientation="Vertical">
+                            <CheckBox Name="-9" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-9 compress better</CheckBox>
+                            <CheckBox Name="-v" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-v verbose operation/print version info</CheckBox>
+                            <CheckBox Name="-z" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-z add zipfile comment</CheckBox>
+                            <CheckBox Name="-o" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-o make zipfile as old as latest entry</CheckBox>
+                            <CheckBox Name="-i" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-i include only the following names</CheckBox>
+                            <CheckBox Name="-D" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-D do not add directory entries</CheckBox>
+                            <CheckBox Name="-J" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-J junk zipfile prefix (unzipsfx)</CheckBox>
+                            <CheckBox Name="-X" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-X eXclude eXtra file attributes</CheckBox>
+                            <CheckBox Name="-S" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-S include system and hidden files</CheckBox>
+                            <CheckBox Name="-n" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">-n don't compress these suffixes</CheckBox>
+                        </StackPanel>
+                    </StackPanel>
+                </TabItem>
+            </TabControl>
+        </StackPanel>
         
     </Grid>
 </Window>
