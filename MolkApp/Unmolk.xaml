@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="Unmolk" Height="450" Width="800">
     <Grid>
-        
+        <Label HorizontalAlignment="Left" Margin="10,10,0,0" Content="Choose destination (drop a folder)" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>
