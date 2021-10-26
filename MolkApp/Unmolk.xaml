@@ -6,8 +6,10 @@
         xmlns:local="clr-namespace:MolkApp"
         mc:Ignorable="d"
         Title="Unmolk" Height="450" Width="800">
-    <Grid>
-        <Label HorizontalAlignment="Left" Margin="10,10,0,0" Content="Choose destination (drop a folder)" VerticalAlignment="Top"/>
+    <Grid AllowDrop="True">
+        <Label HorizontalAlignment="Left" Margin="10,10,0,0" Content="Choose destination (drop the folder)" VerticalAlignment="Top"/>
+        <ComboBox HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" Width="624" Height="22"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="639,36,0,0" VerticalAlignment="Top" Height="22" Width="151"/>
 
     </Grid>
 </Window>

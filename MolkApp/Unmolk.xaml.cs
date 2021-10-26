@@ -23,5 +23,10 @@ namespace MolkApp
         {
             InitializeComponent();
         }
+
+        private void Grid_Drop(object sender, DragEventArgs e)
+        {
+
+        }
     }
 }
